@@ -1,0 +1,312 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.5.5)  29 JUL 2016 15:27
+entering extended mode
+**llncs.tex
+(C:\Users\v-chlv\Downloads\nlpcc2\llncs.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for loaded.
+(C:\Users\v-chlv\Downloads\nlpcc2\llncs.cls
+Document Class: llncs 2015/06/24 v2.20 
+ LaTeX document class for Lecture Notes in Computer Science
+(C:\CTEX\MiKTeX\tex\latex\base\article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(C:\CTEX\MiKTeX\tex\latex\base\size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(C:\CTEX\MiKTeX\tex\latex\tools\multicol.sty
+Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
+\c@tracingmulticols=\count87
+\mult@box=\box26
+\multicol@leftmargin=\dimen103
+\c@unbalance=\count88
+\c@collectmore=\count89
+\doublecol@number=\count90
+\multicoltolerance=\count91
+\multicolpretolerance=\count92
+\full@width=\dimen104
+\page@free=\dimen105
+\premulticols=\dimen106
+\postmulticols=\dimen107
+\multicolsep=\skip43
+\multicolbaselineskip=\skip44
+\partial@page=\box27
+\last@line=\box28
+\mult@rightbox=\box29
+\mult@grightbox=\box30
+\mult@gfirstbox=\box31
+\mult@firstbox=\box32
+\@tempa=\box33
+\@tempa=\box34
+\@tempa=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\c@columnbadness=\count93
+\c@finalcolumnbadness=\count94
+\last@try=\dimen108
+\multicolovershoot=\dimen109
+\multicolundershoot=\dimen110
+\mult@nat@firstbox=\box50
+\colbreak@box=\box51
+\multicol@sort@counter=\count95
+)
+(C:\Users\v-chlv\Downloads\nlpcc2\aliascnt.sty
+Package: aliascnt 2009/09/08 v1.3 Alias counter (HO)
+
+(C:\Users\v-chlv\Downloads\nlpcc2\remreset.sty))
+\c@chapter=\count96
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 362.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 363.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 364.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 365.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 366.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 367.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 368.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 369.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 370.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 371.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 372.
+\tocchpnum=\dimen111
+\tocsecnum=\dimen112
+\tocsectotal=\dimen113
+\tocsubsecnum=\dimen114
+\tocsubsectotal=\dimen115
+\tocsubsubsecnum=\dimen116
+\tocsubsubsectotal=\dimen117
+\tocparanum=\dimen118
+\tocparatotal=\dimen119
+\tocsubparanum=\dimen120
+\@tempcntc=\count97
+\fnindent=\dimen121
+\c@@inst=\count98
+\c@@auth=\count99
+\c@auco=\count100
+\instindent=\dimen122
+\authrun=\box52
+\authorrunning=\toks14
+\tocauthor=\toks15
+\titrun=\box53
+\titlerunning=\toks16
+\toctitle=\toks17
+\c@theorem=\count101
+\c@case=\count102
+\c@conjecture=\count103
+\c@corollary=\count104
+\c@definition=\count105
+\c@example=\count106
+\c@exercise=\count107
+\c@lemma=\count108
+\c@note=\count109
+\c@problem=\count110
+\c@property=\count111
+\c@proposition=\count112
+\c@question=\count113
+\c@solution=\count114
+\c@remark=\count115
+\headlineindent=\dimen123
+)
+(C:\CTEX\MiKTeX\tex\latex\base\makeidx.sty
+Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
+)
+(C:\CTEX\MiKTeX\tex\latex\graphics\graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\CTEX\MiKTeX\tex\latex\graphics\keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks18
+)
+(C:\CTEX\MiKTeX\tex\latex\graphics\graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\CTEX\MiKTeX\tex\latex\graphics\trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(C:\CTEX\MiKTeX\tex\latex\00miktex\graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(C:\CTEX\MiKTeX\tex\latex\pdftex-def\pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(C:\CTEX\MiKTeX\tex\generic\oberdiek\infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+)
+(C:\CTEX\MiKTeX\tex\generic\oberdiek\ltxcmds.sty
+Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count116
+))
+\Gin@req@height=\dimen124
+\Gin@req@width=\dimen125
+)
+(C:\Users\v-chlv\Downloads\nlpcc2\llncs.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+
+(C:\CTEX\MiKTeX\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count117
+\scratchdimen=\dimen126
+\scratchbox=\box54
+\nofMPsegments=\count118
+\nofMParguments=\count119
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count120
+\MPscratchDim=\dimen127
+\MPnumerator=\count121
+\makeMPintoPDFobject=\count122
+\everyMPtoPDFconversion=\toks20
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 15.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 15.
+
+Overfull \hbox (3.62973pt too wide) in paragraph at lines 40--41
+\OT1/cmr/bx/n/9 Keywords:\OT1/cmr/m/n/9 Recommender Sys-tem, Pur-chase Pre-dic-
+tion, Ma-chine Learn-
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 57.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 57.
+[1
+
+{C:/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.sfd}}]
+
+LaTeX Warning: Citation ` Wang2006Unifying' on page 2 undefined on input line 1
+11.
+
+
+LaTeX Warning: Citation ` Koren2009MATRIX' on page 2 undefined on input line 11
+2.
+
+[2] <images/system.pdf, id=16, 213.04594pt x 440.39531pt>
+File: images/system.pdf Graphic file (type pdf)
+
+<use images/system.pdf>
+Package pdftex.def Info: images/system.pdf used on input line 156.
+(pdftex.def)             Requested size: 213.04541pt x 440.39423pt.
+
+<images/train_and_test.pdf, id=17, 450.9347pt x 370.38374pt>
+File: images/train_and_test.pdf Graphic file (type pdf)
+
+<use images/train_and_test.pdf>
+Package pdftex.def Info: images/train_and_test.pdf used on input line 194.
+(pdftex.def)             Requested size: 270.5629pt x 222.23195pt.
+ [3] [4 <C:/Users/v-chlv/Downloads/nlpcc2/images/system.pdf>] [5 <C:/Users/v-ch
+lv/Downloads/nlpcc2/images/train_and_test.pdf>]
+<images/active_cnt.pdf, id=47, 341.02406pt x 249.18094pt>
+File: images/active_cnt.pdf Graphic file (type pdf)
+
+<use images/active_cnt.pdf>
+Package pdftex.def Info: images/active_cnt.pdf used on input line 231.
+(pdftex.def)             Requested size: 204.61601pt x 149.5097pt.
+
+<images/active_day.pdf, id=48, 341.02406pt x 249.18094pt>
+File: images/active_day.pdf Graphic file (type pdf)
+
+<use images/active_day.pdf>
+Package pdftex.def Info: images/active_day.pdf used on input line 245.
+(pdftex.def)             Requested size: 204.61601pt x 149.5097pt.
+ [6 <C:/Users/v-chlv/Downloads/nlpcc2/images/active_cnt.pdf> <C:/Users/v-chlv/D
+ownloads/nlpcc2/images/active_day.pdf>] [7]
+<images/reduced_data_set.pdf, id=67, 423.83344pt x 197.98969pt>
+File: images/reduced_data_set.pdf Graphic file (type pdf)
+
+<use images/reduced_data_set.pdf>
+Package pdftex.def Info: images/reduced_data_set.pdf used on input line 362.
+(pdftex.def)             Requested size: 254.302pt x 118.79472pt.
+ [8] [9 <C:/Users/v-chlv/Downloads/nlpcc2/images/reduced_data_set.pdf>] <images
+/rule.png, id=82, 361.35pt x 217.5628pt>
+File: images/rule.png Graphic file (type png)
+
+<use images/rule.png>
+Package pdftex.def Info: images/rule.png used on input line 457.
+(pdftex.def)             Requested size: 216.81168pt x 130.53868pt.
+
+Overfull \hbox (7.7779pt too wide) in paragraph at lines 476--476
+[]\OT1/cmr/m/n/10 Precision(%)| 
+ []
+
+
+Overfull \hbox (7.77364pt too wide) in paragraph at lines 509--518
+[]$\OML/cmm/m/it/10 CartRule\OT1/cmr/m/n/10 2$ has a lit-tle im-prove-men-t com
+-pared to $\OML/cmm/m/it/10 CartRule$ \OT1/cmr/m/n/10 be-cause $\OML/cmm/m/it/1
+0 CartRule\OT1/cmr/m/n/10 2$
+ []
+
+[10] [11 <C:/Users/v-chlv/Downloads/nlpcc2/images/rule.png>]
+Overfull \hbox (7.7779pt too wide) in paragraph at lines 525--525
+[]\OT1/cmr/m/n/10 Precision(%)| 
+ []
+
+
+Overfull \hbox (8.7807pt too wide) in paragraph at lines 536--536
+[]\OT1/cmr/m/n/10 All(n3[]GBDT)| 
+ []
+
+[12]
+Missing character: There is no Ã in font cmr9!
+Missing character: There is no ¼ in font cmr9!
+Missing character: There is no â in font cmr9!
+Missing character: There is no € in font cmr9!
+Missing character: There is no “ in font cmr9!
+ [13] (C:\Users\v-chlv\Downloads\nlpcc2\llncs.aux) ) 
+Here is how much of TeX's memory you used:
+ 1586 strings out of 495354
+ 20188 string characters out of 3183860
+ 88092 words of memory out of 3000000
+ 4774 multiletter control sequences out of 15000+200000
+ 7635 words of font info for 27 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 29i,10n,21p,258b,278s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/CTEX/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmbx10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/c
+mbx12.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/CTEX/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/CTEX/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmmi9.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pf
+b><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/CTEX/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmr7.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmr9.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/CTEX/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on llncs.pdf (13 pages, 747608 bytes).
+PDF statistics:
+ 132 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,189 @@
+\begin{thebibliography}{10}
+
+\bibitem{bennett2007netflix}
+J.~Bennett and S.~Lanning.
+\newblock The netflix prize.
+\newblock In {\em Proceedings of KDD cup and workshop}, volume 2007, page~35,
+  2007.
+
+\bibitem{chen2012marginalized}
+M.~Chen, Z.~Xu, K.~Weinberger, and F.~Sha.
+\newblock Marginalized denoising autoencoders for domain adaptation.
+\newblock {\em arXiv preprint arXiv:1206.4683}, 2012.
+
+\bibitem{chen2012svdfeature}
+T.~Chen, W.~Zhang, Q.~Lu, K.~Chen, Z.~Zheng, and Y.~Yu.
+\newblock Svdfeature: a toolkit for feature-based collaborative filtering.
+\newblock {\em The Journal of Machine Learning Research}, 13(1):3619--3622,
+  2012.
+
+\bibitem{chen2011feature}
+T.~Chen, Z.~Zheng, Q.~Lu, W.~Zhang, and Y.~Yu.
+\newblock Feature-based matrix factorization.
+\newblock {\em arXiv preprint arXiv:1109.2271}, 2011.
+
+\bibitem{chin2015fast}
+W.-S. Chin, Y.~Zhuang, Y.-C. Juan, and C.-J. Lin.
+\newblock A fast parallel stochastic gradient method for matrix factorization
+  in shared memory systems.
+\newblock {\em ACM Transactions on Intelligent Systems and Technology (TIST)},
+  6(1):2, 2015.
+
+\bibitem{gomez2015netflix}
+C.~A. Gomez-Uribe and N.~Hunt.
+\newblock The netflix recommender system: Algorithms, business value, and
+  innovation.
+\newblock {\em ACM Transactions on Management Information Systems (TMIS)},
+  6(4):13, 2015.
+
+\bibitem{hinton2006fast}
+G.~E. Hinton, S.~Osindero, and Y.-W. Teh.
+\newblock A fast learning algorithm for deep belief nets.
+\newblock {\em Neural computation}, 18(7):1527--1554, 2006.
+
+\bibitem{hinton2006reducing}
+G.~E. Hinton and R.~R. Salakhutdinov.
+\newblock Reducing the dimensionality of data with neural networks.
+\newblock {\em Science}, 313(5786):504--507, 2006.
+
+\bibitem{koren2009matrix}
+Y.~Koren, R.~Bell, and C.~Volinsky.
+\newblock Matrix factorization techniques for recommender systems.
+\newblock {\em Computer}, (8):30--37, 2009.
+
+\bibitem{lawrence2009non}
+N.~D. Lawrence and R.~Urtasun.
+\newblock Non-linear matrix factorization with gaussian processes.
+\newblock In {\em Proceedings of the 26th Annual International Conference on
+  Machine Learning}, pages 601--608. ACM, 2009.
+
+\bibitem{le2014distributed}
+Q.~V. Le and T.~Mikolov.
+\newblock Distributed representations of sentences and documents.
+\newblock {\em arXiv preprint arXiv:1405.4053}, 2014.
+
+\bibitem{lee2001algorithms}
+D.~D. Lee and H.~S. Seung.
+\newblock Algorithms for non-negative matrix factorization.
+\newblock In {\em Advances in neural information processing systems}, pages
+  556--562, 2001.
+
+\bibitem{lee2013local}
+J.~Lee, S.~Kim, G.~Lebanon, and Y.~Singer.
+\newblock Local low-rank matrix approximation.
+\newblock In {\em Proceedings of The 30th International Conference on Machine
+  Learning}, pages 82--90, 2013.
+
+\bibitem{li2015deep}
+S.~Li, J.~Kawale, and Y.~Fu.
+\newblock Deep collaborative filtering via marginalized denoising auto-encoder.
+\newblock In {\em Proceedings of the 24th ACM International on Conference on
+  Information and Knowledge Management}, pages 811--820. ACM, 2015.
+
+\bibitem{mazumder2010spectral}
+R.~Mazumder, T.~Hastie, and R.~Tibshirani.
+\newblock Spectral regularization algorithms for learning large incomplete
+  matrices.
+\newblock {\em The Journal of Machine Learning Research}, 11:2287--2322, 2010.
+
+\bibitem{mikolov2013efficient}
+T.~Mikolov, K.~Chen, G.~Corrado, and J.~Dean.
+\newblock Efficient estimation of word representations in vector space.
+\newblock {\em arXiv preprint arXiv:1301.3781}, 2013.
+
+\bibitem{mikolov2013distributed}
+T.~Mikolov, I.~Sutskever, K.~Chen, G.~S. Corrado, and J.~Dean.
+\newblock Distributed representations of words and phrases and their
+  compositionality.
+\newblock In {\em Advances in neural information processing systems}, pages
+  3111--3119, 2013.
+
+\bibitem{pazzani2007content}
+M.~J. Pazzani and D.~Billsus.
+\newblock Content-based recommendation systems.
+\newblock In {\em The adaptive web}, pages 325--341. Springer, 2007.
+
+\bibitem{rendle2010factorization}
+S.~Rendle.
+\newblock Factorization machines.
+\newblock In {\em Data Mining (ICDM), 2010 IEEE 10th International Conference
+  on}, pages 995--1000. IEEE, 2010.
+
+\bibitem{rendle2012factorization}
+S.~Rendle.
+\newblock Factorization machines with libfm.
+\newblock {\em ACM Transactions on Intelligent Systems and Technology (TIST)},
+  3(3):57, 2012.
+
+\bibitem{resnick1994grouplens}
+P.~Resnick, N.~Iacovou, M.~Suchak, P.~Bergstrom, and J.~Riedl.
+\newblock Grouplens: an open architecture for collaborative filtering of
+  netnews.
+\newblock In {\em Proceedings of the 1994 ACM conference on Computer supported
+  cooperative work}, pages 175--186. ACM, 1994.
+
+\bibitem{ricci2011introduction}
+F.~Ricci, L.~Rokach, and B.~Shapira.
+\newblock {\em Introduction to recommender systems handbook}.
+\newblock Springer, 2011.
+
+\bibitem{salakhutdinov2011probabilistic}
+R.~Salakhutdinov and A.~Mnih.
+\newblock Probabilistic matrix factorization.
+\newblock Citeseer, 2011.
+
+\bibitem{salakhutdinov2007restricted}
+R.~Salakhutdinov, A.~Mnih, and G.~Hinton.
+\newblock Restricted boltzmann machines for collaborative filtering.
+\newblock In {\em Proceedings of the 24th international conference on Machine
+  learning}, pages 791--798. ACM, 2007.
+
+\bibitem{sarwar2001item}
+B.~Sarwar, G.~Karypis, J.~Konstan, and J.~Riedl.
+\newblock Item-based collaborative filtering recommendation algorithms.
+\newblock In {\em Proceedings of the 10th international conference on World
+  Wide Web}, pages 285--295. ACM, 2001.
+
+\bibitem{sedhain2015autorec}
+S.~Sedhain, A.~K. Menon, S.~Sanner, and L.~Xie.
+\newblock Autorec: Autoencoders meet collaborative filtering.
+\newblock In {\em Proceedings of the 24th International Conference on World
+  Wide Web Companion}, pages 111--112. International World Wide Web Conferences
+  Steering Committee, 2015.
+
+\bibitem{su2009survey}
+X.~Su and T.~M. Khoshgoftaar.
+\newblock A survey of collaborative filtering techniques.
+\newblock {\em Advances in artificial intelligence}, 2009:4, 2009.
+
+\bibitem{van2013deep}
+A.~Van~den Oord, S.~Dieleman, and B.~Schrauwen.
+\newblock Deep content-based music recommendation.
+\newblock In {\em Advances in Neural Information Processing Systems}, pages
+  2643--2651, 2013.
+
+\bibitem{vincent2008extracting}
+P.~Vincent, H.~Larochelle, Y.~Bengio, and P.-A. Manzagol.
+\newblock Extracting and composing robust features with denoising autoencoders.
+\newblock In {\em Proceedings of the 25th international conference on Machine
+  learning}, pages 1096--1103. ACM, 2008.
+
+\bibitem{wang2011collaborative}
+C.~Wang and D.~M. Blei.
+\newblock Collaborative topic modeling for recommending scientific articles.
+\newblock In {\em Proceedings of the 17th ACM SIGKDD international conference
+  on Knowledge discovery and data mining}, pages 448--456. ACM, 2011.
+
+\bibitem{wang2015collaborative}
+H.~Wang, N.~Wang, and D.-Y. Yeung.
+\newblock Collaborative deep learning for recommender systems.
+\newblock In {\em Proceedings of the 21th ACM SIGKDD International Conference
+  on Knowledge Discovery and Data Mining}, pages 1235--1244. ACM, 2015.
+
+\bibitem{zhou2008large}
+Y.~Zhou, D.~Wilkinson, R.~Schreiber, and R.~Pan.
+\newblock Large-scale parallel collaborative filtering for the netflix prize.
+\newblock In {\em Algorithmic Aspects in Information and Management}, pages
+  337--348. Springer, 2008.
+
+\end{thebibliography}
