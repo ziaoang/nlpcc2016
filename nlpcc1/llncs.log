@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.5.5)  29 JUL 2016 15:16
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.5.5)  29 JUL 2016 18:29
 entering extended mode
 **llncs.tex
-(C:\Users\v-chlv\Downloads\llncs2e\llncs.tex
+(C:\Users\v-chlv\Desktop\nlpcc2016\nlpcc1\llncs.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for loaded.
-(C:\Users\v-chlv\Downloads\llncs2e\llncs.cls
+(C:\Users\v-chlv\Desktop\nlpcc2016\nlpcc1\llncs.cls
 Document Class: llncs 2015/06/24 v2.20 
  LaTeX document class for Lecture Notes in Computer Science
 (C:\CTEX\MiKTeX\tex\latex\base\article.cls
@@ -72,10 +72,10 @@ Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
 \colbreak@box=\box51
 \multicol@sort@counter=\count95
 )
-(C:\Users\v-chlv\Downloads\llncs2e\aliascnt.sty
+(C:\Users\v-chlv\Desktop\nlpcc2016\nlpcc1\aliascnt.sty
 Package: aliascnt 2009/09/08 v1.3 Alias counter (HO)
 
-(C:\Users\v-chlv\Downloads\llncs2e\remreset.sty))
+(C:\Users\v-chlv\Desktop\nlpcc2016\nlpcc1\remreset.sty))
 \c@chapter=\count96
 LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 362.
 LaTeX Font Info:    Redeclaring math symbol \Delta on input line 363.
@@ -244,7 +244,7 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count129
 )
-(C:\Users\v-chlv\Downloads\llncs2e\llncs.aux
+(C:\Users\v-chlv\Desktop\nlpcc2016\nlpcc1\llncs.aux
 
 LaTeX Warning: Label `fig:example' multiply defined.
 
@@ -288,106 +288,99 @@ LaTeX Font Info:    Try loading font information for U+rsfs on input line 21.
 
 (C:\CTEX\MiKTeX\tex\latex\jknappen\ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-) [1
-
-{C:/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.sfd}}]
-<images/example.pdf, id=9, 328.22626pt x 341.02406pt>
+)
+<images/example.pdf, id=1, 328.22626pt x 341.02406pt>
 File: images/example.pdf Graphic file (type pdf)
  <use images/example.pdf>
-Package pdftex.def Info: images/example.pdf used on input line 73.
-(pdftex.def)             Requested size: 229.7568pt x 238.71521pt.
+Package pdftex.def Info: images/example.pdf used on input line 67.
+(pdftex.def)             Requested size: 164.11272pt x 170.51161pt.
 
+[1
+
+{C:/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.sfd}}]
 <images/example2.pdf, id=10, 1346.02875pt x 314.67563pt>
 File: images/example2.pdf Graphic file (type pdf)
 
 <use images/example2.pdf>
-Package pdftex.def Info: images/example2.pdf used on input line 94.
+Package pdftex.def Info: images/example2.pdf used on input line 88.
 (pdftex.def)             Requested size: 403.81174pt x 94.40341pt.
 
-Overfull \hbox (56.6882pt too wide) in paragraph at lines 94--99
+Overfull \hbox (56.6882pt too wide) in paragraph at lines 88--93
  [][] 
  []
 
-[2 <C:/Users/v-chlv/Downloads/llncs2e/images/example.pdf>] [3 <C:/Users/v-chlv/
-Downloads/llncs2e/images/example2.pdf>]
-Underfull \vbox (badness 5105) has occurred while \output is active []
-
- [4]
-[5] [6] <images/embedding.pdf, id=66, 474.27188pt x 576.65437pt>
-File: images/embedding.pdf Graphic file (type pdf)
-
-<use images/embedding.pdf>
-Package pdftex.def Info: images/embedding.pdf used on input line 330.
-(pdftex.def)             Requested size: 237.13536pt x 288.32648pt.
- [7 <C:/Users/v-chlv/Downloads/llncs2e/images/embedding.pdf>] <images/doc2vec.p
-df, id=102, 415.5525pt x 221.32687pt>
-File: images/doc2vec.pdf Graphic file (type pdf)
-
-<use images/doc2vec.pdf>
-Package pdftex.def Info: images/doc2vec.pdf used on input line 357.
-(pdftex.def)             Requested size: 228.55458pt x 121.73013pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [8 <C:/Users/v-chlv/Downloads/llncs2e/images/doc2vec.pdf>]
-Overfull \hbox (39.71054pt too wide) in paragraph at lines 390--392
+ [2 <C:/Users/v-chlv/Desktop/nlpcc2016/nlpcc1/images/example.pdf> <C:/Users/v-c
+hlv/Desktop/nlpcc2016/nlpcc1/images/example2.pdf>] [3] [4]
+<images/embedding.pdf, id=56, 474.27188pt x 576.65437pt>
+File: images/embedding.pdf Graphic file (type pdf)
+
+<use images/embedding.pdf>
+Package pdftex.def Info: images/embedding.pdf used on input line 235.
+(pdftex.def)             Requested size: 165.99763pt x 201.83205pt.
+
+<images/doc2vec.pdf, id=57, 415.5525pt x 221.32687pt>
+File: images/doc2vec.pdf Graphic file (type pdf)
+ <use images/doc2vec.pdf>
+Package pdftex.def Info: images/doc2vec.pdf used on input line 242.
+(pdftex.def)             Requested size: 186.99689pt x 99.59616pt.
+
+[5 <C:/Users/v-chlv/Desktop/nlpcc2016/nlpcc1/images/embedding.pdf>]
+Overfull \hbox (39.71054pt too wide) in paragraph at lines 273--275
 []\OT1/cmr/m/n/10 where $\OML/cmm/m/it/10 c$ \OT1/cmr/m/n/10 is the time win-do
 w size, $\OML/cmm/m/it/10 y[] \OT1/cmr/m/n/10 : \OML/cmm/m/it/10 y[]$ \OT1/cmr/
 m/n/10 de-notes the se-quence $\OML/cmm/m/it/10 y[]; y[]; :::; y[]$
  []
 
-[9] [10] [11] [12] [13] [14]
-<images/rank_rmse.pdf, id=146, 764.8575pt x 428.60126pt>
+[6 <C:/Users/v-chlv/Desktop/nlpcc2016/nlpcc1/images/doc2vec.pdf>] [7]
+Overfull \hbox (35.34268pt too wide) detected at line 402
+[] []
+ []
+
+[8] [9] [10] <images/rank_rmse.pdf, id=131, 764.8575pt x 428.60126pt>
 File: images/rank_rmse.pdf Graphic file (type pdf)
 
 <use images/rank_rmse.pdf>
-Package pdftex.def Info: images/rank_rmse.pdf used on input line 762.
+Package pdftex.def Info: images/rank_rmse.pdf used on input line 565.
 (pdftex.def)             Requested size: 229.45901pt x 128.58136pt.
+ (C:\Users\v-chlv\Desktop\nlpcc2016\nlpcc1\llncs.bbl
+[11 <C:/Users/v-chlv/Desktop/nlpcc2016/nlpcc1/images/rank_rmse.pdf>]) [12
 
-<images/rank_mae.pdf, id=147, 764.8575pt x 428.60126pt>
-File: images/rank_mae.pdf Graphic file (type pdf)
-
-<use images/rank_mae.pdf>
-Package pdftex.def Info: images/rank_mae.pdf used on input line 770.
-(pdftex.def)             Requested size: 229.45901pt x 128.58136pt.
- [15 <C:/Users/v-chlv/Downloads/llncs2e/images/rank_rmse.pdf> <C:/Users/v-chlv/
-Downloads/llncs2e/images/rank_mae.pdf>]
-(C:\Users\v-chlv\Downloads\llncs2e\llncs.bbl [16] [17
-
-]) [18]
-(C:\Users\v-chlv\Downloads\llncs2e\llncs.aux)
+]
+(C:\Users\v-chlv\Desktop\nlpcc2016\nlpcc1\llncs.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2931 strings out of 495354
- 36546 string characters out of 3183860
- 101486 words of memory out of 3000000
- 6057 multiletter control sequences out of 15000+200000
- 14198 words of font info for 55 fonts, out of 3000000 for 9000
+ 2864 strings out of 495354
+ 35095 string characters out of 3183860
+ 99211 words of memory out of 3000000
+ 5997 multiletter control sequences out of 15000+200000
+ 12368 words of font info for 49 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 29i,12n,24p,287b,272s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,10n,24p,287b,236s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/CTEX/MiKTeX/fon
 ts/type1/public/amsfonts/cm/cmbx12.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfo
-nts/cm/cmbx7.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/C
-TEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/CTEX/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmmi10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmmi5.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/CTEX/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/CTEX/MiKTeX/fonts/type1/public
-/amsfonts/cm/cmmi9.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb
-><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/CTEX/MiKTeX/fonts/
-type1/public/amsfonts/cm/cmr6.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/c
-m/cmr7.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/CTEX/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/CTEX/MiKTeX/fonts/type1/publi
-c/amsfonts/cm/cmsy5.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pf
-b><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/CTEX/MiKTeX/font
-s/type1/public/amsfonts/cm/cmsy9.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmti10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-
-Output written on llncs.pdf (18 pages, 700194 bytes).
+nts/cm/cmbx9.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/
+CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/CTEX/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmmi5.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmmi6.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/CTEX/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/CTEX/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmr10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb>
+<C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/CTEX/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmr7.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmr9.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/CTEX/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/CTEX/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmsy6.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pf
+b><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/CTEX/MiKTeX/font
+s/type1/public/amsfonts/cm/cmti10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfon
+ts/symbols/msbm10.pfb>
+Output written on llncs.pdf (12 pages, 568394 bytes).
 PDF statistics:
- 249 PDF objects out of 1000 (max. 8388607)
+ 214 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

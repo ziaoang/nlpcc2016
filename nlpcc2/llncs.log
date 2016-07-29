@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.5.5)  29 JUL 2016 15:27
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.5.5)  29 JUL 2016 16:01
 entering extended mode
 **llncs.tex
-(C:\Users\v-chlv\Downloads\nlpcc2\llncs.tex
+(C:\Users\v-chlv\Desktop\nlpcc2016\nlpcc2\llncs.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for loaded.
-(C:\Users\v-chlv\Downloads\nlpcc2\llncs.cls
+(C:\Users\v-chlv\Desktop\nlpcc2016\nlpcc2\llncs.cls
 Document Class: llncs 2015/06/24 v2.20 
  LaTeX document class for Lecture Notes in Computer Science
 (C:\CTEX\MiKTeX\tex\latex\base\article.cls
@@ -72,10 +72,10 @@ Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
 \colbreak@box=\box51
 \multicol@sort@counter=\count95
 )
-(C:\Users\v-chlv\Downloads\nlpcc2\aliascnt.sty
+(C:\Users\v-chlv\Desktop\nlpcc2016\nlpcc2\aliascnt.sty
 Package: aliascnt 2009/09/08 v1.3 Alias counter (HO)
 
-(C:\Users\v-chlv\Downloads\nlpcc2\remreset.sty))
+(C:\Users\v-chlv\Desktop\nlpcc2016\nlpcc2\remreset.sty))
 \c@chapter=\count96
 LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 362.
 LaTeX Font Info:    Redeclaring math symbol \Delta on input line 363.
@@ -162,151 +162,152 @@ Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen124
 \Gin@req@width=\dimen125
 )
-(C:\Users\v-chlv\Downloads\nlpcc2\llncs.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
+(C:\CTEX\MiKTeX\tex\latex\natbib\natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip45
+\bibsep=\skip46
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count117
+)
+(C:\Users\v-chlv\Desktop\nlpcc2016\nlpcc2\llncs.aux
 
-(C:\CTEX\MiKTeX\tex\context\base\supp-pdf.mkii
+! Package natbib Error: Bibliography not compatible with author-year citations.
+
+(natbib)                Press <return> to continue in numerical citation style.
+
+
+See the natbib package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 ...mand\NAT@force@numbers{}\NAT@force@numbers
+                                                  
+Check the bibliography entries for non-compliant syntax,
+or select author-year BibTeX style, e.g. plainnat
+
+)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+ (C:\CTEX\MiKTeX\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count117
+\scratchcounter=\count118
 \scratchdimen=\dimen126
 \scratchbox=\box54
-\nofMPsegments=\count118
-\nofMParguments=\count119
+\nofMPsegments=\count119
+\nofMParguments=\count120
 \everyMPshowfont=\toks19
-\MPscratchCnt=\count120
+\MPscratchCnt=\count121
 \MPscratchDim=\dimen127
-\MPnumerator=\count121
-\makeMPintoPDFobject=\count122
+\MPnumerator=\count122
+\makeMPintoPDFobject=\count123
 \everyMPtoPDFconversion=\toks20
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 15.
+(Font)              <7> on input line 16.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 15.
+(Font)              <5> on input line 16.
 
-Overfull \hbox (3.62973pt too wide) in paragraph at lines 40--41
+Overfull \hbox (3.62973pt too wide) in paragraph at lines 41--42
 \OT1/cmr/bx/n/9 Keywords:\OT1/cmr/m/n/9 Recommender Sys-tem, Pur-chase Pre-dic-
 tion, Ma-chine Learn-
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 57.
+(Font)              <9> on input line 58.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 57.
+(Font)              <6> on input line 58.
 [1
 
-{C:/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.sfd}}]
-
-LaTeX Warning: Citation ` Wang2006Unifying' on page 2 undefined on input line 1
-11.
-
-
-LaTeX Warning: Citation ` Koren2009MATRIX' on page 2 undefined on input line 11
-2.
-
-[2] <images/system.pdf, id=16, 213.04594pt x 440.39531pt>
+{C:/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.sfd}}] [2]
+<images/system.pdf, id=15, 213.04594pt x 440.39531pt>
 File: images/system.pdf Graphic file (type pdf)
+ <use images/system.pdf>
+Package pdftex.def Info: images/system.pdf used on input line 157.
+(pdftex.def)             Requested size: 127.82854pt x 264.23921pt.
 
-<use images/system.pdf>
-Package pdftex.def Info: images/system.pdf used on input line 156.
-(pdftex.def)             Requested size: 213.04541pt x 440.39423pt.
-
-<images/train_and_test.pdf, id=17, 450.9347pt x 370.38374pt>
+<images/train_and_test.pdf, id=16, 450.9347pt x 370.38374pt>
 File: images/train_and_test.pdf Graphic file (type pdf)
 
 <use images/train_and_test.pdf>
-Package pdftex.def Info: images/train_and_test.pdf used on input line 194.
+Package pdftex.def Info: images/train_and_test.pdf used on input line 195.
 (pdftex.def)             Requested size: 270.5629pt x 222.23195pt.
- [3] [4 <C:/Users/v-chlv/Downloads/nlpcc2/images/system.pdf>] [5 <C:/Users/v-ch
-lv/Downloads/nlpcc2/images/train_and_test.pdf>]
-<images/active_cnt.pdf, id=47, 341.02406pt x 249.18094pt>
+ [3] [4 <C:/Users/v-chlv/Desktop/nlpcc2016/nlpcc2/images/system.pdf>] [5 <C:/Us
+ers/v-chlv/Desktop/nlpcc2016/nlpcc2/images/train_and_test.pdf>] <images/active_
+cnt.pdf, id=47, 341.02406pt x 249.18094pt>
 File: images/active_cnt.pdf Graphic file (type pdf)
 
 <use images/active_cnt.pdf>
-Package pdftex.def Info: images/active_cnt.pdf used on input line 231.
+Package pdftex.def Info: images/active_cnt.pdf used on input line 232.
 (pdftex.def)             Requested size: 204.61601pt x 149.5097pt.
 
 <images/active_day.pdf, id=48, 341.02406pt x 249.18094pt>
 File: images/active_day.pdf Graphic file (type pdf)
 
 <use images/active_day.pdf>
-Package pdftex.def Info: images/active_day.pdf used on input line 245.
+Package pdftex.def Info: images/active_day.pdf used on input line 246.
 (pdftex.def)             Requested size: 204.61601pt x 149.5097pt.
- [6 <C:/Users/v-chlv/Downloads/nlpcc2/images/active_cnt.pdf> <C:/Users/v-chlv/D
-ownloads/nlpcc2/images/active_day.pdf>] [7]
-<images/reduced_data_set.pdf, id=67, 423.83344pt x 197.98969pt>
+ [6 <C:/Users/v-chlv/Desktop/nlpcc2016/nlpcc2/images/active_cnt.pdf> <C:/Users/
+v-chlv/Desktop/nlpcc2016/nlpcc2/images/active_day.pdf>] [7] <images/reduced_dat
+a_set.pdf, id=67, 423.83344pt x 197.98969pt>
 File: images/reduced_data_set.pdf Graphic file (type pdf)
 
 <use images/reduced_data_set.pdf>
-Package pdftex.def Info: images/reduced_data_set.pdf used on input line 362.
+Package pdftex.def Info: images/reduced_data_set.pdf used on input line 363.
 (pdftex.def)             Requested size: 254.302pt x 118.79472pt.
- [8] [9 <C:/Users/v-chlv/Downloads/nlpcc2/images/reduced_data_set.pdf>] <images
-/rule.png, id=82, 361.35pt x 217.5628pt>
-File: images/rule.png Graphic file (type png)
+ [8] [9 <C:/Users/v-chlv/Desktop/nlpcc2016/nlpcc2/images/reduced_data_set.pdf>]
 
-<use images/rule.png>
-Package pdftex.def Info: images/rule.png used on input line 457.
+<images/rule.png, id=82, 361.35pt x 217.5628pt>
+File: images/rule.png Graphic file (type png)
+ <use images/rule.png>
+Package pdftex.def Info: images/rule.png used on input line 458.
 (pdftex.def)             Requested size: 216.81168pt x 130.53868pt.
 
-Overfull \hbox (7.7779pt too wide) in paragraph at lines 476--476
-[]\OT1/cmr/m/n/10 Precision(%)| 
- []
-
-
-Overfull \hbox (7.77364pt too wide) in paragraph at lines 509--518
+Overfull \hbox (7.77364pt too wide) in paragraph at lines 510--519
 []$\OML/cmm/m/it/10 CartRule\OT1/cmr/m/n/10 2$ has a lit-tle im-prove-men-t com
 -pared to $\OML/cmm/m/it/10 CartRule$ \OT1/cmr/m/n/10 be-cause $\OML/cmm/m/it/1
 0 CartRule\OT1/cmr/m/n/10 2$
  []
 
-[10] [11 <C:/Users/v-chlv/Downloads/nlpcc2/images/rule.png>]
-Overfull \hbox (7.7779pt too wide) in paragraph at lines 525--525
-[]\OT1/cmr/m/n/10 Precision(%)| 
- []
+[10] [11 <C:/Users/v-chlv/Desktop/nlpcc2016/nlpcc2/images/rule.png>] [12]
+[13]
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ¼ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no “ in font cmr10!
+ [14
 
-
-Overfull \hbox (8.7807pt too wide) in paragraph at lines 536--536
-[]\OT1/cmr/m/n/10 All(n3[]GBDT)| 
- []
-
-[12]
-Missing character: There is no Ã in font cmr9!
-Missing character: There is no ¼ in font cmr9!
-Missing character: There is no â in font cmr9!
-Missing character: There is no € in font cmr9!
-Missing character: There is no “ in font cmr9!
- [13] (C:\Users\v-chlv\Downloads\nlpcc2\llncs.aux) ) 
+] (C:\Users\v-chlv\Desktop\nlpcc2016\nlpcc2\llncs.aux) ) 
 Here is how much of TeX's memory you used:
- 1586 strings out of 495354
- 20188 string characters out of 3183860
- 88092 words of memory out of 3000000
- 4774 multiletter control sequences out of 15000+200000
+ 1938 strings out of 495354
+ 24777 string characters out of 3183860
+ 94156 words of memory out of 3000000
+ 5122 multiletter control sequences out of 15000+200000
  7635 words of font info for 27 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  29i,10n,21p,258b,278s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/CTEX/MiKTeX/fonts/type1
-/public/amsfonts/cm/cmbx10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/c
-mbx12.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/CTEX/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/CTEX/MiKTeX/fonts/type1/publi
-c/amsfonts/cm/cmmi9.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pf
-b><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/CTEX/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmr7.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmr9.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/CTEX/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on llncs.pdf (13 pages, 747608 bytes).
+<C:/CTEX/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmbx10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmbx12.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/CTEX
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/CTEX/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmmi9.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr1
+0.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/CTEX/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmr7.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmr9.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/C
+TEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on llncs.pdf (14 pages, 744325 bytes).
 PDF statistics:
- 132 PDF objects out of 1000 (max. 8388607)
+ 135 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
