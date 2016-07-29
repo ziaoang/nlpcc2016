@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.5.5)  29 JUL 2016 16:01
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.5.5)  29 JUL 2016 19:26
 entering extended mode
 **llncs.tex
 (C:\Users\v-chlv\Desktop\nlpcc2016\nlpcc2\llncs.tex
@@ -171,19 +171,7 @@ LaTeX Info: Redefining \cite on input line 694.
 )
 (C:\Users\v-chlv\Desktop\nlpcc2016\nlpcc2\llncs.aux
 
-! Package natbib Error: Bibliography not compatible with author-year citations.
-
-(natbib)                Press <return> to continue in numerical citation style.
-
-
-See the natbib package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.63 ...mand\NAT@force@numbers{}\NAT@force@numbers
-                                                  
-Check the bibliography entries for non-compliant syntax,
-or select author-year BibTeX style, e.g. plainnat
+LaTeX Warning: Label `tab:sta' multiply defined.
 
 )
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
@@ -229,85 +217,78 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 [1
 
 {C:/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.sfd}}] [2]
-<images/system.pdf, id=15, 213.04594pt x 440.39531pt>
+<images/system.pdf, id=15, 328.97906pt x 370.38374pt>
 File: images/system.pdf Graphic file (type pdf)
  <use images/system.pdf>
 Package pdftex.def Info: images/system.pdf used on input line 157.
-(pdftex.def)             Requested size: 127.82854pt x 264.23921pt.
+(pdftex.def)             Requested size: 197.38895pt x 222.23195pt.
 
-<images/train_and_test.pdf, id=16, 450.9347pt x 370.38374pt>
+<images/train_and_test.pdf, id=16, 564.60938pt x 377.91188pt>
 File: images/train_and_test.pdf Graphic file (type pdf)
 
 <use images/train_and_test.pdf>
 Package pdftex.def Info: images/train_and_test.pdf used on input line 195.
-(pdftex.def)             Requested size: 270.5629pt x 222.23195pt.
- [3] [4 <C:/Users/v-chlv/Desktop/nlpcc2016/nlpcc2/images/system.pdf>] [5 <C:/Us
-ers/v-chlv/Desktop/nlpcc2016/nlpcc2/images/train_and_test.pdf>] <images/active_
-cnt.pdf, id=47, 341.02406pt x 249.18094pt>
-File: images/active_cnt.pdf Graphic file (type pdf)
+(pdftex.def)             Requested size: 225.83974pt x 151.16206pt.
+ [3] [4 <C:/Users/v-chlv/Desktop/nlpcc2016/nlpcc2/images/system.pdf>] <images/a
+ctive.pdf, id=32, 649.67719pt x 249.93375pt>
+File: images/active.pdf Graphic file (type pdf)
 
-<use images/active_cnt.pdf>
-Package pdftex.def Info: images/active_cnt.pdf used on input line 232.
-(pdftex.def)             Requested size: 204.61601pt x 149.5097pt.
-
-<images/active_day.pdf, id=48, 341.02406pt x 249.18094pt>
-File: images/active_day.pdf Graphic file (type pdf)
-
-<use images/active_day.pdf>
-Package pdftex.def Info: images/active_day.pdf used on input line 246.
-(pdftex.def)             Requested size: 204.61601pt x 149.5097pt.
- [6 <C:/Users/v-chlv/Desktop/nlpcc2016/nlpcc2/images/active_cnt.pdf> <C:/Users/
-v-chlv/Desktop/nlpcc2016/nlpcc2/images/active_day.pdf>] [7] <images/reduced_dat
-a_set.pdf, id=67, 423.83344pt x 197.98969pt>
+<use images/active.pdf>
+Package pdftex.def Info: images/active.pdf used on input line 241.
+(pdftex.def)             Requested size: 324.8378pt x 124.96657pt.
+ [5 <C:/Users/v-chlv/Desktop/nlpcc2016/nlpcc2/images/train_and_test.pdf> <C:/Us
+ers/v-chlv/Desktop/nlpcc2016/nlpcc2/images/active.pdf>]
+[6] <images/reduced_data_set.pdf, id=58, 423.83344pt x 197.98969pt>
 File: images/reduced_data_set.pdf Graphic file (type pdf)
 
 <use images/reduced_data_set.pdf>
-Package pdftex.def Info: images/reduced_data_set.pdf used on input line 363.
-(pdftex.def)             Requested size: 254.302pt x 118.79472pt.
- [8] [9 <C:/Users/v-chlv/Desktop/nlpcc2016/nlpcc2/images/reduced_data_set.pdf>]
+Package pdftex.def Info: images/reduced_data_set.pdf used on input line 356.
+(pdftex.def)             Requested size: 211.91618pt x 98.9946pt.
+ [7 <C:/Users/v-chlv/Desktop/nlpcc2016/nlpcc2/images/reduced_data_set.pdf>]
+Overfull \hbox (5.34377pt too wide) in paragraph at lines 411--419
+ [][] 
+ []
 
-<images/rule.png, id=82, 361.35pt x 217.5628pt>
+[8] <images/rule.png, id=78, 361.35pt x 217.5628pt>
 File: images/rule.png Graphic file (type png)
  <use images/rule.png>
-Package pdftex.def Info: images/rule.png used on input line 458.
+Package pdftex.def Info: images/rule.png used on input line 444.
 (pdftex.def)             Requested size: 216.81168pt x 130.53868pt.
 
-Overfull \hbox (7.77364pt too wide) in paragraph at lines 510--519
+[9 <C:/Users/v-chlv/Desktop/nlpcc2016/nlpcc2/images/rule.png>]
+Overfull \hbox (7.77364pt too wide) in paragraph at lines 496--505
 []$\OML/cmm/m/it/10 CartRule\OT1/cmr/m/n/10 2$ has a lit-tle im-prove-men-t com
 -pared to $\OML/cmm/m/it/10 CartRule$ \OT1/cmr/m/n/10 be-cause $\OML/cmm/m/it/1
 0 CartRule\OT1/cmr/m/n/10 2$
  []
 
-[10] [11 <C:/Users/v-chlv/Desktop/nlpcc2016/nlpcc2/images/rule.png>] [12]
-[13]
-Missing character: There is no Ã in font cmr10!
-Missing character: There is no ¼ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no “ in font cmr10!
- [14
+[10] (C:\Users\v-chlv\Desktop\nlpcc2016\nlpcc2\llncs.bbl [11]) [12
 
-] (C:\Users\v-chlv\Desktop\nlpcc2016\nlpcc2\llncs.aux) ) 
+]
+(C:\Users\v-chlv\Desktop\nlpcc2016\nlpcc2\llncs.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 1938 strings out of 495354
- 24777 string characters out of 3183860
- 94156 words of memory out of 3000000
- 5122 multiletter control sequences out of 15000+200000
+ 1935 strings out of 495354
+ 24746 string characters out of 3183860
+ 96185 words of memory out of 3000000
+ 5118 multiletter control sequences out of 15000+200000
  7635 words of font info for 27 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 29i,10n,21p,258b,278s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/CTEX/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmbx10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmbx12.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/CTEX
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/CTEX/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmmi9.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr1
-0.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/CTEX/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmr7.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfo
-nts/cm/cmr9.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/C
-TEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on llncs.pdf (14 pages, 744325 bytes).
+ 29i,10n,21p,258b,237s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/CTEX/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmbx12.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmbx9.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/
+CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/CTEX/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmr10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/c
+mr6.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/CTEX/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/CTEX/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on llncs.pdf (12 pages, 745449 bytes).
 PDF statistics:
- 135 PDF objects out of 1000 (max. 8388607)
+ 127 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

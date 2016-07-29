@@ -46,7 +46,7 @@ With the rapid growth of electronic commerce,
 recommender systems are widely used to recommend items that fit the user's taste
 to aid user in buying items from an overwhelming set of choices.
 The goal of recommender systems is to help identify user preferences over items and
-reflect the relationship between users and items \cite{L2012Recommender}.
+reflect the relationship between users and items \cite{lu2012recommender}.
 Traditional methods in recommender systems are usually based on
 CF (Collaborative Filtering),
 in which the similarity of users and items are considered.
@@ -102,22 +102,22 @@ Section 6 provides conclusions and outlines futures research directions.
 
 \section{Related Work}
 The most prominent technique in recommender system is
-Collaborative Filtering (CF) \cite{Su2009A}.
+Collaborative Filtering (CF) \cite{su2009survey}.
 The basic insight for this technique is a sort of continuity in the realm of taste.
 If users Alice and Bob have the same utility for items $1$ through $k$,
 then the chances are good that they will have the same utility for item $k + 1$.
 Usually, these utilities are based on ratings that users have supplied for items
 with which they are already familiar.
 CF is roughly classified into two categories,
-i.e. memory-based approachs \cite{Linden2003Amazon, Wang2006Unifying}
-and model-based approachs \cite{Adomavicius2005Toward, Koren2009MATRIX}.
+i.e. memory-based approachs \cite{linden2003amazon, wang2006unifying}
+and model-based approachs \cite{adomavicius2005toward, koren2009matrix}.
 
 The Netflix nillion-dollar challenge boosted interset in CF and yielded
 the publication of a number of new methods.
 Several matrix factorization techniques have been successfully applied to CF,
-including Singular Value Decomposition (SVD) \cite{Paterek2007Improving}
-and Non-negative Matrix Factorization (NMF) \cite{Lee1999Learning}.
-A joint non-nagative matrix factorization method proposed in \cite{Ju2014Modeling} 
+including Singular Value Decomposition (SVD) \cite{paterek2007improving}
+and Non-negative Matrix Factorization (NMF) \cite{lee1999learning}.
+A joint non-nagative matrix factorization method proposed in \cite{ju2014modeling} 
 trys to solve the purchase prediction task launched by the Alibaba Group in 2014.
 The goal of that task in 2014 is to predict purchase behaviors in the following one month
 based on historical behaviors data in a period of four months.
@@ -192,7 +192,7 @@ This process is illustrated in Figure \ref{fig:train_and_test}.
 
 \begin{figure}[htbp]
 	\centering
-	\includegraphics[scale=0.6]{images/train_and_test.pdf}
+	\includegraphics[scale=0.4]{images/train_and_test.pdf}
 	\caption{Training Set and Test Set}
 	\label{fig:train_and_test}
 \end{figure}
@@ -222,33 +222,26 @@ while others are inactive and not willing to buy items frequently.
 	
 	\item \emph{Behaviors Statistics} stands for the count of a user's behaviors.
 	The more this user browse, the higher possibility he will buy.
-	There is an example in Figure \ref{fig:num} to explain the definition.
+	There is an example in the left of Figure \ref{fig:active} to explain the definition.
 	In this example, a user click for $3$ times in the first day, $1$ time in the second day and
 	$2$ times in the fourth day, so the count of his total behaviors in the last four day equals
 	$3 + 1 + 0 + 2 = 6$.
 	
-	\begin{figure}[htbp]
-		\centering
-		\includegraphics[scale=0.6]{images/active_cnt.pdf}
-		\caption{An Example of Behaviors Statistics}
-		\label{fig:num}
-	\end{figure}
-	
 	\item \emph{Active Days} means the count of active days of a user.
 	This feature could represent the positivity of a user directly.
-	There is an example in Figure \ref{fig:day} to explain the definition.
+	There is an example in the right of Figure \ref{fig:active} to explain the definition.
 	In this example, a user login in the first day, the second day and
 	the fourth day, so the count of his active days in the last four day equals
 	$1 + 1 + 0 + 1 = 3$.
 	
-	\begin{figure}[htbp]
-		\centering
-		\includegraphics[scale=0.6]{images/active_day.pdf}
-		\caption{An Example of Active Days}
-		\label{fig:day}
-	\end{figure}
-	
 \end{itemize}
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[scale=0.5]{images/active.pdf}
+	\caption{An Example of Behaviors Statistics}
+	\label{fig:active}
+\end{figure}
 
 \textbf{Item Quality} reflects the popularity of a item.
 Obviously, more popular items have bigger tendency to be bought.
@@ -360,7 +353,7 @@ which is showed in Figure \ref{fig:reduced_data_set}.
 
 \begin{figure}[htbp]
 	\centering
-	\includegraphics[scale=0.6]{images/reduced_data_set.pdf}
+	\includegraphics[scale=0.5]{images/reduced_data_set.pdf}
 	\caption{Definition of the Reduced Data Set}
 	\label{fig:reduced_data_set}
 \end{figure}
@@ -377,10 +370,7 @@ If we use all of the data to train a model,
 this model will prefer to judging all the inputs negative.
 To handle this issue, we use classic \textbf{Negative Sampling} method,
 i.e. we use part of negative instances instead of all of the negative ones,
-just like \cite{Spirydowicz2000Machine}.
-
-
-
+just like \cite{bowling2006machine}.
 
 \section{Experiments}
 \subsection{Data Description}
@@ -418,15 +408,11 @@ Summary statistics of the data are listed in Table \ref{tab:sta}.
 	\normalsize
 	\centering
 	\caption{The Statistics of The Data Set}
-	\begin{tabular}{|l|l|}
+	\begin{tabular}{|c|c|c|c|c|c|}
 		\hline
-		table $D$ size & 5,822,532,780 \\
-		table $P$ size & 14,397,493 \\
+		\#table $D$ & \#table $P$ & \#user set & \#total item set & \#sub item set & \#category set \\
 		\hline
-		user set size & 5,000,000 \\
-		total item set size & 156,226,243 \\
-		sub item set size & 13,435,163 \\
-		category set size & 13,128 \\
+		5,822,532,780 & 14,397,493 & 5,000,000 & 156,226,243 & 13,435,163 & 13,128 \\
 		\hline
 	\end{tabular}
 	\label{tab:sta}
@@ -589,48 +575,6 @@ In addition, the way we use the time and spacial factor is simple,
 we can also combine them and user quality
 and build different prediction models for different type of users.
 
-\begin{thebibliography}{12}
-	
-	\bibitem{L2012Recommender}
-	Lü, Linyuan, Medo M, Yeung C H, et al. Recommender Systems[J]. Physics Reports, 2012, 519(1):1-49.
-	
-	\bibitem{Su2009A}
-	Su X, Khoshgoftaar T M. A survey of collaborative filtering techniques[J]. Advances in Artificial Intelligence, 2009, 2009(2009).
-	
-	\bibitem{Linden2003Amazon}
-	Linden G, Smith B, York J. Amazon.com Recommendations: Item-to-Item Collaborative Filtering[J]. IEEE Internet Computing, 2003, 7(1):76-80.
-	
-	\bibitem{Wang2006Unifying}
-	Wang J, De Vries A P, Reinders M J T. Unifying user-based and item-based collaborative filtering approaches by similarity fusion[C]
-	// Proceedings of the 29th annual international ACM SIGIR conference on Research and development in information retrieval. ACM, 2006:501--508.
-	
-	\bibitem{Adomavicius2005Toward}
-	Adomavicius G, Tuzhilin A. Toward the Next Generation of Recommender Systems: A Survey of the State-of-the-Art and Possible Extensions[J].
-	IEEE Transactions on Knowledge \& Data Engineering, 2005, 17(6):734-749.
-	
-	\bibitem{Koren2009MATRIX}
-	Koren Y, Bell R, Volinsky C. MATRIX FACTORIZATION TECHNIQUES FOR RECOMMENDER SYSTEMS[C]
-	// IEEE COMPUTER. 2009.
-	
-	\bibitem{Paterek2007Improving}
-	Paterek A, Paterek A. Improving regularized singular value decomposition for collaborative filtering[J]. Proceedings of Kdd Cup \& Workshop, 2007.
-	
-	\bibitem{Lee1999Learning}
-	Lee D D, Seung H S. Learning the parts of objects by nonnegative matrix factorization[J]. Nature, 1999, 401(6755):788-791 (21 October 1999) | doi :10.1038/44565.
-	
-	\bibitem{Ju2014Modeling}
-	Ju B, Ye M, Qian Y, et al. Modeling behaviors of Browsing and Buying for Alidata Discovery Using Joint Non-negative Matrix Factorization[C]
-	// Computational Intelligence and Security (CIS), 2014 Tenth International Conference on. IEEE, 2014:114-118.
-	
-	\bibitem{breiman2001random}
-	Breiman L. Random forests[J]. Machine learning, 2001, 45(1): 5-32.
-	
-	\bibitem{friedman2003multiple}
-	Friedman J H, Meulman J J. Multiple additive regression trees with application
-	in epidemiology[J]. Statistics in medicine, 2003, 22(9): 1365-1381.
-	
-	\bibitem{Spirydowicz2000Machine}
-	Spirydowicz A. Machine Learning in games[J]. Encyclopedia of Systems \& Control, 2000, 133(1):177–198.
-	
-\end{thebibliography}
+\bibliographystyle{abbrv}
+\bibliography{llncs}
 \end{document}
