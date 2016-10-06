@@ -1,0 +1,77 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+
+\bibitem{chen2011feature}
+Chen, T., Zheng, Z., Lu, Q., Zhang, W., Yu, Y.: Feature-based matrix
+  factorization. arXiv preprint arXiv:1109.2271  (2011)
+
+\bibitem{chin2015fast}
+Chin, W.S., Zhuang, Y., Juan, Y.C., Lin, C.J.: A fast parallel stochastic
+  gradient method for matrix factorization in shared memory systems. ACM
+  Transactions on Intelligent Systems and Technology (TIST)  6(1), ~2 (2015)
+
+\bibitem{gomez2015netflix}
+Gomez-Uribe, C.A., Hunt, N.: The netflix recommender system: Algorithms,
+  business value, and innovation. ACM Transactions on Management Information
+  Systems (TMIS)  6(4), ~13 (2015)
+
+\bibitem{koren2009matrix}
+Koren, Y., Bell, R., Volinsky, C.: Matrix factorization techniques for
+  recommender systems. Computer (8),  30--37 (2009)
+
+\bibitem{lawrence2009non}
+Lawrence, N.D., Urtasun, R.: Non-linear matrix factorization with gaussian
+  processes. In: Proceedings of the 26th Annual International Conference on
+  Machine Learning. pp. 601--608. ACM (2009)
+
+\bibitem{le2014distributed}
+Le, Q.V., Mikolov, T.: Distributed representations of sentences and documents.
+  arXiv preprint arXiv:1405.4053  (2014)
+
+\bibitem{lee2001algorithms}
+Lee, D.D., Seung, H.S.: Algorithms for non-negative matrix factorization. In:
+  Advances in neural information processing systems. pp. 556--562 (2001)
+
+\bibitem{lee2013local}
+Lee, J., Kim, S., Lebanon, G., Singer, Y.: Local low-rank matrix approximation.
+  In: Proceedings of The 30th International Conference on Machine Learning. pp.
+  82--90 (2013)
+
+\bibitem{mazumder2010spectral}
+Mazumder, R., Hastie, T., Tibshirani, R.: Spectral regularization algorithms
+  for learning large incomplete matrices. The Journal of Machine Learning
+  Research  11,  2287--2322 (2010)
+
+\bibitem{mikolov2013efficient}
+Mikolov, T., Chen, K., Corrado, G., Dean, J.: Efficient estimation of word
+  representations in vector space. arXiv preprint arXiv:1301.3781  (2013)
+
+\bibitem{pazzani2007content}
+Pazzani, M.J., Billsus, D.: Content-based recommendation systems. In: The
+  adaptive web, pp. 325--341. Springer (2007)
+
+\bibitem{rendle2010factorization}
+Rendle, S.: Factorization machines. In: Data Mining (ICDM), 2010 IEEE 10th
+  International Conference on. pp. 995--1000. IEEE (2010)
+
+\bibitem{rendle2012factorization}
+Rendle, S.: Factorization machines with libfm. ACM Transactions on Intelligent
+  Systems and Technology (TIST)  3(3), ~57 (2012)
+
+\bibitem{sedhain2015autorec}
+Sedhain, S., Menon, A.K., Sanner, S., Xie, L.: Autorec: Autoencoders meet
+  collaborative filtering. In: Proceedings of the 24th International Conference
+  on World Wide Web Companion. pp. 111--112. International World Wide Web
+  Conferences Steering Committee (2015)
+
+\bibitem{su2009survey}
+Su, X., Khoshgoftaar, T.M.: A survey of collaborative filtering techniques.
+  Advances in artificial intelligence  2009, ~4 (2009)
+
+\bibitem{zhou2008large}
+Zhou, Y., Wilkinson, D., Schreiber, R., Pan, R.: Large-scale parallel
+  collaborative filtering for the netflix prize. In: Algorithmic Aspects in
+  Information and Management, pp. 337--348. Springer (2008)
+
+\end{thebibliography}

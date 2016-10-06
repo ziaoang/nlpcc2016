@@ -12,11 +12,22 @@
 \DeclareMathOperator*{\argmin}{argmin}
 \usepackage{mathrsfs}
 \usepackage{graphicx}
-\usepackage[sort&compress]{natbib}
+%\usepackage[sort&compress]{natbib}
 %
 \begin{document}
 %
 \title{Improving Collaborative Filtering with Long-Short Interest Model}
+%
+\author{
+	Chao Lv, LiliYao, Yansong Feng\inst{*}\footnotetext{*Corresponding author.} and Dongyan Zhao
+}
+\tocauthor{Chao Lv, LiliYao, Yansong Feng and Dongyan Zhao}
+%
+\institute{
+	Institute of Computer Science and Technology\\
+	Peking University, Beijing 100871, China\\
+	\email{\{lvchao,yaolili,fengyansong,zhaodongyan\}@pku.edu.cn}
+}
 %
 \maketitle
 %
@@ -24,12 +35,12 @@
 Collaborative filtering (CF) has been widely employed within
 recommender systems in many real-world situations.
 The basic assumption of CF is that items liked by the same user would be similar and
-users like same items would share similar interest.
+users like the same items would share a similar interest.
 But it is not always true since the user's interest changes over time.
 It should be more reasonable to assume that
 if these items are liked by the same user in the same time period,
 there is a strong possibility that they are similar,
-but the possibility will shrink if the user likes they in different time period.
+but the possibility will shrink if the user likes them in a different time period.
 In this paper, we propose a long-short interest model (LSIM) based on
 the new assumption to improve collaborative filtering.
 In special, we introduce a neural network based language model
@@ -59,7 +70,7 @@ While collaborative filtering based approaches \cite{su2009survey} utilize
 the past interactions or preferences, such as users' ratings on items,
 without using user or product content information for recommendation.
 Collaborative filtering based approaches have attracted more attention
-due to their impressive performance, and developed for many years and
+due to their impressive performance, hence they develop for many years and
 keep to be a hot area in both academia and industry.
 
 \begin{figure}[htbp]
@@ -71,14 +82,14 @@ keep to be a hot area in both academia and industry.
 \end{figure}
 
 Collaborative filtering assumes that items liked by the same user would be similar and
-users like same items would share similar interest.
+users like the same items would share a similar interest.
 However, it is not always true because the user's interest changes over time.
 For example, given a user in MovieLens-1M dataset whose id is $5988$,
-Figure \label{fig:example} shows the movies he watched sorted by the rating time.
+Figure \ref{fig:example} shows the movies he watched sorted by the rating time.
 We can find that this user liked watching comedy movies in April 2004 and
 changed to love watching drama movies in June 2004.
-These movies are going to be treated similar in conventional collaborative filtering,
-but they are not in actual.
+These movies are going to be treated similarly in conventional collaborative filtering,
+but they are not in fact.
 A more reasonable assumption, aka long-short interest assumption, should be that
 items liked by the same user in the same time period have a higher possibility
 to be similar than items liked by the same user in different time period.
@@ -100,9 +111,9 @@ a word order observed in a sentence,
 we introduce a long-short interest model (LSIM) to extract sequential features
 of users and items based on the new assumption.
 As illustrated in Figure \ref{fig:example2}, user is similar with the sentence,
-both of them contains a sequence follow some order,
+both of them contains a sequence following some order,
 and items are similar with words because both of them follow the law
-that the more close they are, the more similar they are.
+that the closer they are, the more similar they are.
 To verify the effectiveness of the learned sequential features of users
 and items, we integrate them as side information to solve the rating prediction task
 in a feature based collaborative filtering framework.
@@ -112,15 +123,15 @@ The main contributions of this paper include:
 of users and items based on the long-short interest assumption.
 (2) We demonstrate the effectiveness of the sequential features
 via integrating them as side information to solve the rating prediction task.
-(3) Experiments on three public MovieLens shows LSIM can achieve the state-of-the-art performance.
+(3) Experiments on three public MovieLens show that LSIM can achieve the state-of-the-art performance.
 
 The rest of the paper is organized as follows. Section 2 gives an overview of the related work.
 Then, we describe our long-short interest model and the feature based collaborative filtering
-framework in Section 3. The experimental results as well as the comparisons with
-baseline system are shown in Section 4.
+framework in Section 3. The experimental results, as well as the comparisons with
+baseline system, are shown in Section 4.
 Finally, we conclude the paper and outline our future work in Section 5.
 
-\section{Related Work}
+section{Related Work}
 Our work is closely related to collaborative filtering and
 neural network language model.
 We will discuss them in the following subsections.
@@ -135,7 +146,7 @@ consisting of the item preferences of the users can be decomposed as
 a product of two low dimensional matrices $\mathbf{U} \in \mathbb{R}^{N*K}$
 and $\mathbf{V} \in \mathbb{R}^{K*M}$.
 $\mathbf{U}$ could be treated as a user-interest matrix while
-$\mathbf{V}$ could be treated as a item-interest matrix.
+$\mathbf{V}$ could be treated as an item-interest matrix.
 $K$ is the amount of interest.
 The decomposition can be carried out by a variety of methods
 such as singular value decomposition (SVD) based approaches \cite{mazumder2010spectral},
@@ -201,7 +212,7 @@ Table \ref{tab:notations} summarizes the symbols used in our approach.
 
 \subsection{Long-short Interest Model}
 The basic assumption of collaborative filtering is that items liked by the same user
-would be similar or users like same items would share similar interest.
+would be similar or users like the same items would share a similar interest.
 However, in real-world situations, it is not always true because users' interest
 may change over a long time period.
 Meanwhile, the interest distribution of a user in a fixed time period
@@ -251,7 +262,7 @@ The embedding model simultaneously learns vector representations of users and it
 by considering the user as a global context,
 and the architecture of the embedding model is illustrated in Figure \ref{fig:doc2vec}.
 
-The training data set was derived from users interaction timeline $T$,
+The training data set was derived from users' interaction timeline $T$,
 which comprises users $x_i (i=1,2,...,N)$ and their interacted items ordered by the interacted time,
 $y_{i_1}$, $y_{i_2}$, ..., $y_{i_{L_i}}$
 \footnote{we use symbol $x$ and $y$ instead of classic $u$ and $v$ to avoid confusion between $v$
@@ -275,7 +286,7 @@ $y_{i_{j-c}}, y_{i_{j-c+1}}, ..., y_{i_{j+c}}$ excluding $y_{i_j}$.
 
 $p(x_i | y_{i_1}, y_{i_2}, ..., y_{i_{L_i}})$ is the probability to generate
 the long interest of $u_i$ based on all items he interacted.
-The prediction task is typically done via a multiclass classifier,
+The prediction task is typically done via a multi-class classifier,
 such as softmax. There, we have
 
 \begin{equation}
@@ -299,7 +310,7 @@ interacted by user $x_i$, i.e.
 
 $p(y_{i_j} | y_{i_{j-c}} : y_{i_{j+c}}, x_i)$
 is the probability to generate $y_{i_j}$ based on items in the same short interest
-and the user's long interest. Similarly, using softmax multiclass classifier we have
+and the user's long interest. Similarly, using softmax multi-class classifier we have
 
 \begin{equation}
 p(y_{i_j} | y_{i_{j-c}} : y_{i_{j+c}}, x_i) =
@@ -331,7 +342,7 @@ the computation, and we use negative sampling approach in this paper.
 Feature based collaborative filtering \cite{chen2011feature} is a variety of
 collaborative filtering, it allows us to build factorization models incorporating
 side information such as temporal dynamics, neighborhood relationship,
-and hierarchical information compare to conventional collaborative filtering.
+and hierarchical information compared with conventional collaborative filtering.
 
 There are two kinds of side information in collaborative filtering:
 user side information and item side information.
@@ -382,7 +393,7 @@ Hence, we define $\tilde{\mathbf{u}}_i$ as
 the learned vector representation of users and $\tilde{\mathbf{v}}_j$ as
 the learned vector representation of items.
 Then, we get new features of users and items by add the learned vector representation
-to origin one-hot representation.
+to original one-hot representation.
 
 \begin{equation}
 \mathbf{u}_{i} = \{ \mathbf{u}_{i} , \tilde{\mathbf{u}}_i \} , 
@@ -413,7 +424,7 @@ of our proposed long-short interest model on three public
 MovieLens \footnote{http://grouplens.org/datasets/movielens/} datasets.
 In these experiments, we also conduct corresponding analysis to investigate:
 (1) the rating prediction performance of our long-short interest model
-compare to other benchmark models;
+compare with other benchmark models;
 (2) the effect of our long-short interest model on users own different interaction number.
 
 \subsection{Experimental Setup}
@@ -470,7 +481,7 @@ Factorization machines (FM) are a generic approach that
 allows to mimic most factorization models by feature engineering.
 This way, factorization machines combine the generality of
 feature engineering with the superiority of factorization models
-in estimating interactions between categorical variables of large domain.
+in estimating interactions between categorical variables of a large domain.
 LibFM \cite{rendle2012factorization} is a software implementation
 for factorization machines that features
 Stochastic Gradient Descent (SGD) and
@@ -519,7 +530,7 @@ We split the rating data in each dataset into random 90\%-10\% training-test
 datasets, the training dataset are used for building our proposed model
 and benchmark models, the remaining data are used for testing.
 This process is repeated five times, and we report the mean value and
-standard deviation of the RMSE score on Table \ref{tab:msre}.
+standard deviation of the RMSE scores on Table \ref{tab:msre}.
 From this table, we can clearly observe:
 \begin{enumerate}
 	\item The rating prediction performance of \textbf{LibMF} is worst among all the models,
@@ -534,7 +545,7 @@ From this table, we can clearly observe:
 	performance on all three MovieLens datasets, which shows the effectiveness
 	of the long-short interest model. To the best of our knowledge, the best results
 	published regarding MovieLens-1M and MovieLens-10M are reported by both
-	\cite{lee2013local, sedhain2015autorec} with a final RMSE of $0.831 \pm 0.003$
+	\cite{lee2013local}\cite{sedhain2015autorec} with a final RMSE of $0.831 \pm 0.003$
 	and $0.782 \pm 0.003$. These scores are obtained with a training ratio of
 	90\%/10\% and without side information. That means our proposed model can achieve
 	the start-of-the-art performance.
@@ -578,13 +589,18 @@ long-short interest model.
 
 \section{Conclusions}
 In this study, we propose to use long-short interest model to utilize the rich
-sequential information on users interaction history to solve the rating
+sequential information on users' interaction history to solve the rating
 prediction task in recommender system.
 By incorporating the sequential features into feature based collaborative
 filtering framework, better prediction performance can be obtained.
 Our thorough evaluation, using three standard MovieLens datasets, demonstrates
 the effectiveness of the proposed method.
 
-\bibliographystyle{abbrv}
+\section*{Acknowledgement}
+This work was supported by National High Technology R\&D Program of China (Grant No. 2015AA015403, 2014AA015102),
+Natural Science Foundation of China (Grant No. 61202233, 61272344, 61370055) and the joint project with IBM Research.
+Any correspondence please refer to Yansong Feng.
+
+\bibliographystyle{splncs03}
 \bibliography{llncs}
 \end{document}

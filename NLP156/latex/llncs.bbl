@@ -1,0 +1,47 @@
+\begin{thebibliography}{1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+
+\bibitem{adomavicius2005toward}
+Adomavicius, G., Tuzhilin, A.: Toward the next generation of recommender
+  systems: A survey of the state-of-the-art and possible extensions. IEEE
+  transactions on knowledge and data engineering  17(6),  734--749 (2005)
+
+\bibitem{ju2014modeling}
+Ju, B., Ye, M., Qian, Y., Ni, R., Zhu, C.: Modeling behaviors of browsing and
+  buying for alidata discovery using joint non-negative matrix factorization.
+  In: Computational Intelligence and Security (CIS), 2014 Tenth International
+  Conference on. pp. 114--118. IEEE (2014)
+
+\bibitem{koren2009matrix}
+Koren, Y., Bell, R., Volinsky, C., et~al.: Matrix factorization techniques for
+  recommender systems. Computer  42(8),  30--37 (2009)
+
+\bibitem{lee1999learning}
+Lee, D.D., Seung, H.S.: Learning the parts of objects by non-negative matrix
+  factorization. Nature  401(6755),  788--791 (1999)
+
+\bibitem{linden2003amazon}
+Linden, G., Smith, B., York, J.: Amazon. com recommendations: Item-to-item
+  collaborative filtering. IEEE Internet computing  7(1),  76--80 (2003)
+
+\bibitem{lu2012recommender}
+L{\"u}, L., Medo, M., Yeung, C.H., Zhang, Y.C., Zhang, Z.K., Zhou, T.:
+  Recommender systems. Physics Reports  519(1),  1--49 (2012)
+
+\bibitem{paterek2007improving}
+Paterek, A.: Improving regularized singular value decomposition for
+  collaborative filtering. In: Proceedings of KDD cup and workshop. vol. 2007,
+  pp. 5--8 (2007)
+
+\bibitem{su2009survey}
+Su, X., Khoshgoftaar, T.M.: A survey of collaborative filtering techniques.
+  Advances in artificial intelligence  2009, ~4 (2009)
+
+\bibitem{wang2006unifying}
+Wang, J., De~Vries, A.P., Reinders, M.J.: Unifying user-based and item-based
+  collaborative filtering approaches by similarity fusion. In: Proceedings of
+  the 29th annual international ACM SIGIR conference on Research and
+  development in information retrieval. pp. 501--508. ACM (2006)
+
+\end{thebibliography}
