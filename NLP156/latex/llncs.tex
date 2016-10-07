@@ -16,7 +16,7 @@
 in Mobile Commerce}
 %
 \author{
-	Chao Lv, Yansong Feng\inst{*}\footnotetext{*Corresponding author.} and Dongyan Zhao
+	Chao Lv, Yansong Feng and Dongyan Zhao\inst{*}\footnotetext{*Corresponding author.}
 }
 \tocauthor{Chao Lv, Yansong Feng and Dongyan Zhao}
 %
@@ -67,8 +67,8 @@ Conventional methods in recommender system\cite{lu2012recommender},
 such as collaborative filtering and matrix factorization,
 don't obtain a good performance in this task.
 
-%The goal of this purchase prediction task is a little different from recommender system\cite{lu2012recommender}.
-%For example, if we recommend a item to one user and he likes it very much,
+%The goal of this purchase prediction task is little different from recommender system\cite{lu2012recommender}.
+%For example, if we recommend an item to one user and he likes it very much,
 %but he buys it a week later instead of in that day because of lack of money.
 %Then, this recommendation is a good case in recommender system
 %but a bad one in this purchase prediction task.
@@ -165,7 +165,7 @@ First, we would like to learn a model from
 the behaviors data over the whole set of items in the \textbf{training module},
 which can reflect why users will buy items in the following one day
 and how their historical behaviors influence their future purchase behaviors.
-In detail, if $user$ buy $item$ in the following one day,
+In detail, if a $user$ is going to buy an $item$ in the following one day,
 this ($user$, $item$) pair will be labeled as a positive instance
 while other pairs that doesn't be bought
 are going to be labeled as a negative instance.
@@ -178,13 +178,13 @@ with too long distance in those positive instances
 via the \textbf{filtering module}.
 In the last, the filtered predicted purchase behaviors are
 compared with the real purchase behaviors to evaluate
-the performance of our approach in the \textbf{evaluatation module}.
+the performance of our approach in the \textbf{evaluation module}.
 
 \subsection{Training Module and Prediction Module}
 Training set is a basic component in the training module just like
 test set in the prediction module,
 but there is little difference between the generation of them.
-Because we cann't use the future infomation,
+Because we can't use the future infomation,
 i.e. we don't know purchase behaviors
 on the whole set of items in the following one day,
 we split baheviors data in the last day of the month
@@ -223,17 +223,17 @@ while others are inactive and not willing to buy items frequently.
 	%High Conversion Ratio means this user has a strong purchasing power.
 	
 	\item \emph{Behaviors Statistics} stands for the count of a user's behaviors.
-	The more this user browse, the higher possibility he will buy.
+	The more this user browses, the higher possibility he will buy.
 	There is an example in the left of Figure \ref{fig:active} to explain the definition.
 	In this example, a user click for $3$ times in the first day, $1$ time in the second day and
-	$2$ times in the fourth day, so the count of his total behaviors in the last four day equals
+	$2$ times in the fourth day, so the count of his total behaviors in the last four days equals
 	$3 + 1 + 0 + 2 = 6$.
 	
 	\item \emph{Active Days} means the count of active days of a user.
 	This feature could represent the positivity of a user directly.
 	There is an example in the right of Figure \ref{fig:active} to explain the definition.
 	In this example, a user login in the first day, the second day and
-	the fourth day, so the count of his active days in the last four day equals
+	the fourth day, so the count of his active days in the last four days equals
 	$1 + 1 + 0 + 1 = 3$.
 	
 \end{itemize}
@@ -245,24 +245,24 @@ while others are inactive and not willing to buy items frequently.
 	\label{fig:active}
 \end{figure}
 
-\textbf{Item Quality} reflects the popularity of a item.
-Obviously, more popular items have bigger tendency to be bought.
+\textbf{Item Quality} reflects the popularity of an item.
+Obviously, more popular items have bigger tendency to be sold.
 \begin{itemize}
-	\item \emph{Last Browsed Day} represents the last day a item is browsed.
-	%If a item's last browsed day is close to the following one day
+	\item \emph{Last Browsed Day} represents the last day an item is browsed.
+	%If an item's last browsed day is close to the following one day
 	%we think that this item is active recently
 	%and it has a strong possibility to be browsed in the following one day again.
 	
-	\item \emph{Conversion Ratio} represents the ratio of purchase behaviors of a item
+	\item \emph{Conversion Ratio} represents the ratio of purchase behaviors of an item
 	in its total browsed behaviors.
 	%High Conversion Ratio means that users usually buy it
-	%with a small number of click and this item is worth to be bought.
+	%with a small number of click and this item is worth to be sold.
 	
-	\item \emph{Behaviors Statistics} stands for the count of a item's browsed behaviors.
-	The more this item is browsed, the higher possibility it will be bought.
+	\item \emph{Behaviors Statistics} stands for the count of an item's browsed behaviors.
+	The more this item is browsed, the higher possibility it will be sold.
 	
-	\item \emph{Active Days} means the count of days a item is browsed.
-	This feature could represent the popularity of a item.
+	\item \emph{Active Days} means the count of days an item is browsed.
+	This feature could represent the popularity of an item.
 \end{itemize}
 
 \textbf{Category Quality} describes the popularity of a category.
@@ -277,7 +277,7 @@ it is a direct aspect to reflect the willing that the user want to buy the item.
 	%It's obvious that if a user is interested in one item and willing to buy it,
 	%he will browse it frequently to know it completely in recent days.
 	
-	\item \emph{Active Days} means the count of days in which the user browse the item.
+	\item \emph{Active Days} means the count of days in which the user browses the item.
 	%The more active days, the user is more active and has a bigger willing to buy the item.
 \end{itemize}
 
@@ -289,7 +289,7 @@ and \emph{behaviors Statistics} and \emph{Active Days} will be generated in the 
 This purchase prediction task is based on a typical O2O business model,
 in which users pay online and consume offline.
 This means that users are not willing to buy items
-which is far away from them because they have to go there to consume.
+which are far away from them because they have to go there to consume.
 Based on the fact, we propose Filter Module to remove those pairs with too long distance.
 In detail, in a ($user$, $item$) pair,
 if the distance between the location of the $item$ and the $user$ is bigger than $L$,
@@ -344,7 +344,7 @@ We set $L = 100km$ from experience in this paper.
 %The speed and performance of RF is between LR and GBDT. 
 
 \subsection{Reduced Data}
-Because the volume of out data set is too large,
+Because the volume of our data set is too large,
 it will spend unacceptable time for training process
 in the machine learning approach.
 Hence, we use a reduced data set to solve this problem
@@ -359,9 +359,9 @@ which is showed in Figure \ref{fig:reduced_data_set}.
 \end{figure}
 
 Instead of using all the ($user$, $item$) pairs happened in the one month,
-we use pairs show up in last $n$ days to train and predict.
-$n = 1$ means that we use data in the last day while
-$n = 30$ means that we use all data over the whole one month.
+we use pairs show up in the last $N$ days to train and predict.
+$N = 1$ means that we use data in the last day while
+$N = 30$ means that we use all data over the whole one month.
 
 %\subsection{Negative Sampling}
 %The positive instances and negative instances are not balanced in the training set,
@@ -423,12 +423,12 @@ Summary statistics of the data are listed in Table \ref{tab:sta}.
 %Where, $PredictionSet$ contains the predict purchase data and $ReferenceSet$ contains the real purchase data.
 %We take F1 score as the only standard of the final evaluation.
 
-\subsection{Two Rule-Based Baseline}
+\subsection{Two Rule-Based Baselines}
 \emph{CartRule} is the first strategy of most participants, and we select it as our first baseline.
-In detail, \emph{CartRule} thinks that if a user add a item into his cart and doesn't buy it in that day,
+In detail, \emph{CartRule} thinks that if a user adds an item into his cart and doesn't buy it in that day,
 it's likely that he will buy it in the next day.
 In addition, we propose \emph{CartRuleTime} which adds time factor into consideration based on \emph{CartRule}.
-\emph{CartRuleTime} thinks that if a user add a item into his cart and doesn't buy it
+\emph{CartRuleTime} thinks that if a user adds an item into his cart and doesn't buy it
 after $m$ o'clock ($ m \in \{ 0, 1, ..., 23 \} $) in that day,
 it's likely that he will buy it in the next day.
 When $m$ is set to $15$, the performance is the best according to our experiments.
@@ -444,7 +444,7 @@ When $m$ is set to $15$, the performance is the best according to our experiment
 %We can see from that,
 %The precision is increasing while the recall is decreasing
 %with the increase of $m$ and less pairs are returned.
-%In addition, the F1-score increases before $15$ o'clock slowly
+%In addition, the F1 score increases before $15$ o'clock slowly
 %and decreases after $15$ o'clock.
 
 \subsection{Result}
@@ -459,44 +459,44 @@ When $m$ is set to $15$, the performance is the best according to our experiment
 		CartRule & 5.5480 & 4.1824 & 8.2377 \\
 		CartRuleTime & 5.8007 & 5.3018 & 6.4033 \\
 		\hline
-		n1\_LR & 6.8985 & 7.8298 & 6.1652 \\
-		n1\_RF & 8.0064 & 8.3249 & 7.7114 \\
-		n1\_GBDT & \textbf{8.3841} & \textbf{8.2591} & \textbf{8.5129} \\
+		N1\_LR & 6.8985 & 7.8298 & 6.1652 \\
+		N1\_RF & 8.0064 & 8.3249 & 7.7114 \\
+		N1\_GBDT & \textbf{8.3841} & \textbf{8.2591} & \textbf{8.5129} \\
 		\hline
-		n2\_LR & 6.3266 & 6.5820 & 6.0902 \\
-		n2\_RF & 7.9830 & 8.5378 & 7.4959 \\
-		n2\_GBDT & \textbf{8.4264} & \textbf{8.2036} & \textbf{8.6617} \\
+		N2\_LR & 6.3266 & 6.5820 & 6.0902 \\
+		N2\_RF & 7.9830 & 8.5378 & 7.4959 \\
+		N2\_GBDT & \textbf{8.4264} & \textbf{8.2036} & \textbf{8.6617} \\
 		\hline
-		n3\_LR & 6.5542 & 7.4360 & 5.8593 \\
-		n3\_RF & 7.9152 & 8.9481 & 7.0960 \\
-		n3\_GBDT & \textbf{8.4719} & \textbf{8.6591} & \textbf{8.2926} \\
+		N3\_LR & 6.5542 & 7.4360 & 5.8593 \\
+		N3\_RF & 7.9152 & 8.9481 & 7.0960 \\
+		N3\_GBDT & \textbf{8.4719} & \textbf{8.6591} & \textbf{8.2926} \\
 		\hline
-		n4\_LR & 6.5015 & 7.1628 & 5.9520 \\
-		n4\_RF & 7.9152 & 8.8237 & 7.1764 \\
-		n4\_GBDT & \textbf{8.4410} & \textbf{8.4336} & \textbf{8.4485} \\
-		\hline
-		champion & \textbf{8.78} & \textbf{8.76} & \textbf{-} \\
+		N4\_LR & 6.5015 & 7.1628 & 5.9520 \\
+		N4\_RF & 7.9152 & 8.8237 & 7.1764 \\
+		N4\_GBDT & \textbf{8.4410} & \textbf{8.4336} & \textbf{8.4485} \\
+		%\hline
+		%champion & \textbf{8.78} & \textbf{8.76} & \textbf{-} \\
 		\hline
 	\end{tabular}
 	\label{tab:score}
 \end{table}
 
-We set $n \in \{ 1, 2, 3, 4\}$ in the reduced data in this paper
+We set $N \in \{ 1, 2, 3, 4\}$ in the reduced data in this paper
 and apply three classifiers: LR (Linear Regression), RF (Random Forest) and GBDT (Gradient Boosting Decision Tree).
 Table \ref{tab:score} shows the prediction performance of different approachs
 in this purchase prediction task.
-`n1\_LR' means that $n = 1$ and $classifier = LR$,
-`n4\_GBDT' means that $n = 4$ and $classifier = GBDT$,
+\textit{N1\_LR} means that $N = 1$ and $classifier = LR$,
+\textit{N4\_GBDT} means that $N = 4$ and $classifier = GBDT$,
 others could be explained in the same way.
-$CartRuleTime$ has a little improvement compared to $CartRule$
+$CartRuleTime$ has little improvement compared to $CartRule$
 because $CartRuleTime$ takes the time factor into consideration.
 Those machine learning approachs we proposed have a much better performance
 than two rule-based methods, which could proves the effectiveness of our approachs to some extent.
 Compare the performance of different classifiers,
 we could see easily that $GBDT$ is the best choice.
-With the increase of $n$, the F1-score changes littlely.
+With the increase of $N$, the F1 score changes littlely.
 This phenomenon proves that reduced data could accelerate
-the process of machine learning and keep the performance at the same time.
+the process of machine learning and keeps the performance at the same time.
 
 \begin{table}[htbp]
 	\normalsize
@@ -523,8 +523,8 @@ the process of machine learning and keep the performance at the same time.
 
 To prove the effectiveness and robustness of feature families explored,
 we test a series of combination of feature families on 
-\textit{n3\_GBDT}, which is the best result mentioned above.
-\textit{U+I+C} means we use quality features only and `UI+UC' means we use interaction
+\textit{N3\_GBDT}, which is the best result mentioned above.
+\textit{U+I+C} means we use quality features only and \textit{UI+UC} means we use interaction
 features only.
 The performance of \textit{U+I+C} is poorer than \textit{UI+UC}, which explains the importance of interaction features.
 The performance of \textit{All} is better than \textit{UI+UC}, which reflects the supporting role of the quality features.
