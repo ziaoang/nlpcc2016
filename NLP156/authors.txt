@@ -3,14 +3,13 @@ Name:    Chao Lv
 Surname: Lv
 Email:   lvchao@pku.edu.cn
 
-Author 2.
+Author 2. (Contact Author)
 Name:    Yansong Feng
 Surname: Feng
 Email:   fengyansong@pku.edu.cn
+Postal Mailing Address: No.128 North Zhongguancun Street, Haidian District, Beijing, China, 100871
 
-Author 3. (Contact Author)
+Author 3. 
 Name:    Dongyan Zhao
 Surname: Zhao
 Email:   zhaodongyan@pku.edu.cn
-Postal Mailing Address: No.128 North Zhongguancun Street, Haidian District, Beijing, China, 100871
-
